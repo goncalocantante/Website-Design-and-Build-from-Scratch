@@ -1,0 +1,78 @@
+/* Comment */
+/* Comment */
+/* Comment */
+
+@font-face {
+  font-family: PopRegular;
+  src: url("fonts/Poppins/Poppins-Regular");
+}
+@font-face {
+  font-family: PopBold;
+  src: url("fonts/Poppins/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: PopBlack;
+  src: url("fonts/Poppins/Poppins-Black.ttf");
+}
+
+body {
+  color: #272830 !important;
+  font-family: PopRegular;
+  background-color: #d6dbdb;
+  background: linear-gradient(180deg, #d6dbdb, #f6f2ef);
+}
+
+.navbar {
+  /*  
+  background-color: blue; */
+  margin: 0;
+  padding: 60px 100px 0 0;
+}
+
+li,
+li a {
+  color: #ffc176 !important;
+  font-size: 20px;
+  font-family: PopBold;
+  /* 
+  background-color: red;  */
+  margin: 0;
+  padding-left: 55px;
+}
+
+#wave {
+  position: relative;
+  top: 80%;
+  margin-top: 15%;
+  z-index: 1;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+#title {
+  position: fixed;
+  left: 25%;
+  bottom: 50%;
+  font-size: 72px;
+  color: #ffc176 !important;
+  /*
+  color: transparent !important;  */
+  font-family: PopBlack;
+}
+
+.about {
+  height: 50vh;
+}
+
+#profilepic {
+  width: 199px;
+  height: 172px;
+}
+
+/*
+.title {
+  background-color: royalblue;
+  position: absolute;
+  transform: translate(50%, -50%);
+  z-index: 1;
+} */
