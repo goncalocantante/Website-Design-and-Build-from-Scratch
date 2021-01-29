@@ -1,10 +1,9 @@
 /* Comment */
 /* Comment */
 /* Comment */
-
 @font-face {
   font-family: PopRegular;
-  src: url("fonts/Poppins/Poppins-Regular");
+  src: url("fonts/Poppins/Poppins-Regular.ttf");
 }
 @font-face {
   font-family: PopBold;
@@ -14,32 +13,24 @@
   font-family: PopBlack;
   src: url("fonts/Poppins/Poppins-Black.ttf");
 }
-
 body {
   color: #272830 !important;
   font-family: PopRegular;
   background-color: #d6dbdb;
   background: linear-gradient(180deg, #d6dbdb, #f6f2ef);
 }
-
 .navbar {
-  /*  
-  background-color: blue; */
   margin: 0;
   padding: 60px 100px 0 0;
 }
-
-li,
-li a {
-  color: #ffc176 !important;
-  font-size: 20px;
+.navbar-nav li,
+.navbar-nav li a {
   font-family: PopBold;
-  /* 
-  background-color: red;  */
+  font-size: 20px;
+  color: #ffc176 !important;
   margin: 0;
   padding-left: 55px;
 }
-
 #wave {
   position: relative;
   top: 80%;
@@ -48,31 +39,64 @@ li a {
   object-fit: cover;
   pointer-events: none;
 }
-
 #title {
   position: fixed;
   left: 25%;
   bottom: 50%;
   font-size: 72px;
   color: #ffc176 !important;
-  /*
-  color: transparent !important;  */
+  /*color: transparent !important;  */
   font-family: PopBlack;
 }
-
-.about {
+.fill {
   height: 50vh;
 }
-
+.about {
+  height: 100vh;
+  background-color: rgb(255, 255, 255, 0.5);
+}
+/* Left Side */
+.left {
+  background-color: orange;
+}
+.right {
+  background-color: rgb(54, 58, 54);
+}
+.text {
+  max-height: 290px;
+  max-width: 520px;
+  background-color: grey;
+}
 #profilepic {
   width: 199px;
   height: 172px;
 }
 
-/*
-.title {
-  background-color: royalblue;
-  position: absolute;
-  transform: translate(50%, -50%);
-  z-index: 1;
-} */
+/* Right Side */
+.skills {
+  background-color: red;
+  margin: 0;
+  padding: 0 0 0 0;
+}
+.skills li {
+  font-family: PopRegular;
+  font-size: 18px;
+  width: 91px;
+  height: 43px;
+  background-color: #272830;
+  color: white;
+
+  margin: 0;
+  padding-left: 0px;
+}
+#js {
+  font-size: 14px;
+}
+.softskills li {
+}
+.icons li {
+  padding-left: 45px;
+}
+.icons li:first-child {
+  padding-left: 0px;
+}
