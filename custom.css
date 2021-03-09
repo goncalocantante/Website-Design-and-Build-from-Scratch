@@ -27,11 +27,15 @@ body {
 .navbar-nav li,
 .navbar-nav li a {
   font-family: PopBold;
-  font-size: 18px;
+  font-size: 16px;
   color: #ffc176 !important;
   margin: 0;
   padding-left: 55px;
 }
+/*           */
+/*  Landing  */
+/*   Page    */
+/*           */
 #wave {
   position: relative;
   top: 80%;
@@ -52,52 +56,48 @@ body {
 .fill {
   height: 50vh;
 }
+/*           */
+/*  2nd page */
+/*           */
 .about {
   height: 100vh;
-  background-color: rgb(255, 255, 255, 0.5);
+
+  /*     
+  background-color: rgb(255, 255, 255, 0.5);      */
 }
+
+/*           */
 /* Left Side */
+/*           */
 .left {
-  background-color: orange;
+  /*          
+  background-color: orange;  */
 }
-.big-y-padding {
-  width: 85%;
-  height: 73%;
+.left h2 {
+  font-family: PopBold;
+  color: #ffc176;
+  font-size: 64px;
 }
+
 .right {
-  background-color: rgb(54, 58, 54);
+  /*           
+  background-color: rgb(54, 58, 54);            */
 }
 .text {
   max-height: 290px;
 
-  background-color: grey;
+  /*background-color: grey;*/
 }
 #profilepic {
   width: 199px;
   height: 172px;
 }
-
+/*           */
 /* Right Side */
-/* Comment 
+/*           */
 .skills {
-  background-color: red;
-  margin: 0;
-  padding: 0 0 0 0;
-}
-.skills li {
-  font-family: PopRegular;
-  font-size: 18px;
-  width: 91px;
-  height: 43px;
-  background-color: #272830;
-  color: white;
-
-  margin: 0;
-  padding-left: 0px;
-}
-*/
-.skills {
-  background-color: red;
+  /*           
+  background-color: red;           */
 }
 .skills li {
   font-family: PopRegular;
@@ -107,8 +107,13 @@ body {
   width: 91px;
   height: 43px;
   text-align: center;
-  /*margin: 0;
-  padding-left: 0px;*/
+  vertical-align: middle;
+  line-height: 43px;
+  /*
+   */
+}
+.skills li:hover {
+  background-color: #ffc176;
 }
 #js {
   font-size: 14px;
@@ -116,6 +121,7 @@ body {
 .softskills li {
   /**/
   background-color: transparent;
+  font-size: 16px;
 }
 .icons li {
   padding-left: 45px;
