@@ -9,11 +9,22 @@ window.onscroll = function() {
     document.getElementById("title").style.display = "block";
     console.log(currentScrollPos)
   }
+
+  let title = document.getElementById("title")
+  let wave = document.getElementById("wave")
+
+  window.addEventListener('scroll', function(){
+      var value = window.scrollY; 
+      title.style.bottom = 50 + value*0.05 + "%"; 
+      
+
+  })
+
+
+  /*
   if (currentScrollPos > 750) {
     $('.modal').modal('show'); 
   } else{
     $('.modal').modal('hide'); 
-  }
-
-
+  }*/
 }

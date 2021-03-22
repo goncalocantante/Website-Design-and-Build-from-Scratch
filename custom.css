@@ -16,18 +16,21 @@
 body {
   color: #272830 !important;
   font-family: PopRegular;
-  font-size: 14px;
+  font-size: 0.875rem;
   background-color: #d6dbdb;
   background: linear-gradient(180deg, #d6dbdb, #f6f2ef);
 }
 .navbar {
+  /*height: 10vh;*/
   margin: 0;
+  padding-right: 6vw;
+  /*background-color: grey;*/
   padding: 50px 90px 0 0;
 }
 .navbar-nav li,
 .navbar-nav li a {
   font-family: PopBold;
-  font-size: 16px;
+  font-size: 1rem;
   color: #ffc176 !important;
   margin: 0;
   padding-left: 55px;
@@ -46,22 +49,19 @@ body {
 }
 #title {
   position: fixed;
-  left: 25%;
-  bottom: 50%;
-  font-size: 72px;
+  left: 50vh;
+  bottom: 50vh;
+  font-size: 4.5rem;
   color: #ffc176 !important;
   /*color: transparent !important;  */
   font-family: PopBlack;
-}
-.fill {
-  height: 40vh;
 }
 /*           */
 /*  2nd page */
 /*           */
 .about {
   height: 100vh;
-
+  background-color: black;
   /*     
   background-color: rgb(255, 255, 255, 0.5);      */
 }
@@ -76,7 +76,7 @@ body {
 .left h2 {
   font-family: PopBold;
   color: #ffc176;
-  font-size: 64px;
+  font-size: 4rem;
 }
 
 .right {
@@ -101,7 +101,7 @@ body {
 }
 .skills li {
   font-family: PopRegular;
-  font-size: 18px;
+  font-size: 1.125rem;
   background-color: #272830;
   color: white;
   width: 91px;
@@ -116,12 +116,12 @@ body {
   background-color: #ffc176;
 }
 #js {
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 .softskills li {
   /**/
   background-color: transparent;
-  font-size: 16px;
+  font-size: 1rem;
 }
 .icons li {
   padding-left: 45px;
