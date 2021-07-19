@@ -1,16 +1,25 @@
+
+
 /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
+  let title = document.getElementById("title")
+
+
+  // let imgYoffset = document.querySelector('#wave').getBoundingClientRect().top// Y
+  let imgYoffset = document.getElementById('wave').offsetTop;
 
   if (currentScrollPos > 500) {
-    document.getElementById("title").style.display = "none";
+    title.style.display = "none";
+    console.log(imgYoffset + "---")
     console.log(currentScrollPos)
   } else{
-    document.getElementById("title").style.display = "block";
+    title.style.display = "block";
+    console.log(imgYoffset + "---")
     console.log(currentScrollPos)
   }
 
-  let title = document.getElementById("title")
+
   let wave = document.getElementById("wave")
 
   window.addEventListener('scroll', function(){
@@ -21,10 +30,4 @@ window.onscroll = function() {
   })
 
 
-  /*
-  if (currentScrollPos > 750) {
-    $('.modal').modal('show'); 
-  } else{
-    $('.modal').modal('hide'); 
-  }*/
 }
